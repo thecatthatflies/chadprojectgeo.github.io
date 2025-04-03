@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chad | Sub-Saharan Africa Project</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to bottom right, #fffaf0, #ffe8d2);
+      color: #111;
+      scroll-behavior: smooth;
+    }
+    header {
+      position: relative;
+      padding: 3rem 1rem;
+      text-align: center;
+      background: linear-gradient(120deg, #FFD7A0, #FF8800);
+      color: white;
+      overflow: hidden;
+    }
+    header::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: radial-gradient(circle at center, rgba(255,255,255,0.1) 0%, transparent 70%);
+      animation: pulse 6s infinite;
+      z-index: 0;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.05); opacity: 0.8; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+    header h1 {
+      position: relative;
+      font-size: 4rem;
+      margin: 0;
+      font-weight: 900;
+      text-shadow: 2px 2px 10px rgba(0,0,0,0.4);
+      z-index: 1;
+    }
+    header p {
+      position: relative;
+      font-size: 1.6rem;
+      margin-top: 1rem;
+      font-weight: 500;
+      z-index: 1;
+    }
+    .parallax {
+      background-image: url('chadlandscape1.jpg');
+      min-height: 400px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      filter: brightness(0.8);
+    }
+    section {
+      padding: 5rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+      animation: fadeIn 1s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .flag {
+      text-align: center;
+      margin-bottom: 3rem;
+      animation: popIn 1.2s ease;
+    }
+    @keyframes popIn {
+      0% { transform: scale(0.8); opacity: 0; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+    .flag img {
+      width: 240px;
+      border: 4px solid #222;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin-top: 2rem;
+    }
+    ul li {
+      padding: 1rem 1.2rem;
+      font-size: 1.2rem;
+      background: #ffffffdd;
+      margin-bottom: 1rem;
+      border-left: 6px solid #ff6a00;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      border-radius: 6px;
+      transition: transform 0.2s ease;
+    }
+    ul li:hover {
+      transform: translateX(6px);
+    }
+    h2 {
+      color: #0033a0;
+      font-size: 2.6rem;
+      margin-top: 3rem;
+      text-align: center;
+    }
+    p {
+      font-size: 1.25rem;
+      line-height: 1.8;
+    }
+    .footer {
+      text-align: center;
+      font-size: 1rem;
+      color: #555;
+      padding: 2rem 0.5rem;
+      border-top: 1px solid #ddd;
+      background-color: #fff3e6;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Chad</h1>
+    <p>Sub-Saharan Africa Research Presentation</p>
+  </header>
+
+  <div class="parallax"></div>
+
+  <section>
+<h2>Issues and Solutions</h2>
+
+        <h2>Major Issues</h2>
+        <p><strong>Issue 1: Political Instability and Corruption</strong><br>
+        Chad faces weak governance and widespread corruption that limits development, reduces public trust, and affects basic services.</p>
+        <p><strong>Issue 2: Poverty and Lack of Healthcare and Education</strong><br>
+        Many people, especially in rural areas, lack access to basic medical care and schooling. Poor infrastructure and underfunded systems leave families underserved.</p>
+        <h2>Solution</h2>
+        <p>Expanding mobile services and community-run programs is an effective way to reach remote populations. With support from global partners like UNICEF and the World Bank, and leadership from local communities, this approach can deliver education and healthcare directly where it's most needed.</p>
+        
+    <div class="flag">
+      <img src="chadflag1.svg" alt="Flag of Chad" />
+    </div>
+
+    <h2>Introduction</h2>
+    <p>
+      Welcome to <strong>Chad</strong> — a nation of stunning landscapes, vibrant cultures, and a proud history nestled in the heart of Sub-Saharan Africa. This project was created to celebrate the essence of Chad and offer you a dynamic digital exploration of its people, land, and identity.
+    </p>
+    <p>
+      With golden deserts to the north, fertile plains in the south, and rich waterways like Lake Chad and the Chari River flowing through its land, Chad is a country of breathtaking contrasts. Its capital, N'Djamena, serves as a bustling center of life, commerce, and tradition.
+    </p>
+    <p>
+      Through color, structure, animation, and interactivity, this website transforms research into an experience. Whether you're here to learn about Chad's exports, its climate, or just admire its flag, you're witnessing a story told through code, collaboration, and creativity.
+    </p>
+
+    <h2>Quick Stats</h2>
+    <ul>
+      <li><strong>Independence:</strong> August 11, 1960</li>
+      <li><strong>Capital:</strong> N'Djamena</li>
+      <li><strong>Area:</strong> 495,753 square miles</li>
+      <li><strong>Population:</strong> 19.3 million</li>
+      <li><strong>Water Bodies:</strong> Lake Chad, Chari River</li>
+      <li><strong>Major Exports:</strong> Cotton, Oil, Cattle</li>
+      <li><strong>Bordering Nations:</strong> Libya, Sudan, Central African Republic, Cameroon, Niger, Nigeria</li>
+    </ul>
+  </section>
+
+  <div class="footer">
+    &copy; 2025 | theprojectplateau.space | Created for Educational Use 🇹🇩
+  </div>
+</body>
+</html>
