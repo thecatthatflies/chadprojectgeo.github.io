@@ -1,0 +1,275 @@
+full css - 
+
+.top-nav {
+    background-color: #fde5c8;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 2px solid #f5c59f;
+}
+
+.top-nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #a64b2a;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.top-nav a:hover {
+    color: #d14900;
+}
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        body {
+            background-color: #fffaf3;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #fde5c8;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 3px solid #f5c59f;
+        }
+
+        .logo {
+            font-family: 'Poppins', sans-serif;
+            font-size: 24px;
+            font-weight: 600;
+            color: #a64b2a;
+        }
+
+	.top-nav {
+             background-color: #fde5c8;
+             padding: 10px 0;
+             text-align: center;
+             border-bottom: 2px solid #f5c59f;
+	}
+
+	.top-nav a {
+             margin: 0 15px;
+             text-decoration: none;
+             color: #a64b2a;
+             font-size: 18px;
+             font-family: 'Poppins', sans-serif;
+             font-weight: 600;
+             transition: color 0.3s;
+	}
+
+	.top-nav a:hover {
+             color: #d14900;
+	}
+
+        .contact-info {
+            font-size: 14px;
+        }
+
+        section {
+            padding: 40px 20px;
+        }
+
+        .hero {
+            background-color: #fff4e5;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 40px;
+        }
+
+        .hero img {
+            max-width: 300px;
+            border-radius: 12px;
+        }
+
+        .hero-text h1 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 36px;
+            color: #a64b2a;
+        }
+
+        .hero-text p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 15px;
+            background-color: #a64b2a;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+        }
+
+        .menu, .catering, .about, .contact {
+            background-color: #fff;
+            margin-top: 20px;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu h2, .catering h2, .about h2, .contact h2 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 28px;
+            color: #a64b2a;
+            margin-bottom: 15px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #f5c59f;
+            text-align: center;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+
+        .about p {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            padding: 15px 0;
+            background-color: #fde5c8;
+            border-top: 3px solid #f5c59f;
+        }
+
+        img.sample-image {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+        }
+    </style>
+
+index.html - 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HaleemMama – Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans&display=swap" rel="stylesheet">
+    <style>/* Add the CSS from above here */</style>
+</head>
+<body>
+    <nav class="top-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="menu.html">Ordering</a>
+        <a href="catering.html">Catering</a>
+    </nav>
+
+    <h1>Welcome to HaleemMama</h1>
+    <p>Authentic Bangladeshi Haleem, made with love.</p>
+</body>
+</html>
+
+about.html - 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HaleemMama – About Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans&display=swap" rel="stylesheet">
+    <style>/* Add the CSS from above here */</style>
+</head>
+<body>
+    <nav class="top-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="menu.html">Ordering</a>
+        <a href="catering.html">Catering</a>
+    </nav>
+
+    <h1>About Us</h1>
+    <p>At HaleemMama, every bowl of haleem carries the warmth of home and the rich heritage of Bangladeshi cooking...</p>
+</body>
+</html>
+
+menu.html - 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HaleemMama – Ordering</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans&display=swap" rel="stylesheet">
+    <style>/* Add the CSS from above here */</style>
+</head>
+<body>
+    <nav class="top-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="menu.html">Ordering</a>
+        <a href="catering.html">Catering</a>
+    </nav>
+
+    <h1>Ordering</h1>
+    <p>Our Haleem Menu:</p>
+    <table border="1">
+        <tr>
+            <th>Size</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Small</td>
+            <td>$[Insert Price]</td>
+        </tr>
+        <tr>
+            <td>Medium</td>
+            <td>$[Insert Price]</td>
+        </tr>
+        <tr>
+            <td>Large</td>
+            <td>$[Insert Price]</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+catering.html - 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HaleemMama – Catering</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans&display=swap" rel="stylesheet">
+    <style>/* Add the CSS from above here */</style>
+</head>
+<body>
+    <nav class="top-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="menu.html">Ordering</a>
+        <a href="catering.html">Catering</a>
+    </nav>
+
+    <h1>Catering</h1>
+    <p>We offer catering for all occasions. Flexible orders. Contact us to discuss your needs.</p>
+    <p>Email: [Blank for now]</p>
+</body>
+</html>
+
